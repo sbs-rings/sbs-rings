@@ -2,5 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 body {
   background-color: #000;
+  color-text: #fff;
   font-family: "Inter", "DM Sans", Arial, sans-serif;
 }
