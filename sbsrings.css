@@ -303,7 +303,17 @@ header ul li a
     letter-spacing: 1px;
     text-decoration: none;
 }
-ul li a:after {    
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -315,7 +325,13 @@ ul li a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-ul li a:hover:after { 
+a:hover:after { 
   width: 100%; 
   left: 0; 
 }
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
